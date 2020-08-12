@@ -8,7 +8,7 @@ int main() {
    scanf("%s", Name);
    // Extract the first word
    char *word = strtok(Name, "_");
-   // loop through the string to extract all other words
+   // Run a loop through the string to extract all other words
    while(word!= NULL ) {
       printf( "\"%s\",",word ); //printing each word
       word = strtok(NULL, "_");
