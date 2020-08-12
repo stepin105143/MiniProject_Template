@@ -1,15 +1,17 @@
 
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 
 int main() {
-   char string[50] = "my_name_is_edcast_future_skills";
-   // Extract the first token
-   char *token = strtok(string, "_");
-   // loop through the string to extract all other tokens
-   while(token!= NULL ) {
-      printf( "%s,",token ); //printing each token
-      token = strtok(NULL, "_");
+   char Name[50];
+   scanf("%s", Name);
+   // Extract the first word
+   char *word = strtok(Name, "_");
+   // loop through the string to extract all other words
+   while(word!= NULL ) {
+      printf( "\"%s\",",word ); //printing each word
+      word = strtok(NULL, "_");
    }
    return 0;
 }
