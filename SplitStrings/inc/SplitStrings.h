@@ -11,6 +11,6 @@
 * @return words of the string
 * @note returns 0 if string is null
 */
-int factorial(int number);
+void SplitStrings(char *a);
 
-#endif /* #ifndef __FACTORIAL_H__ */
+#endif /* #ifndef __SPLITSTRINGS_H__ */
