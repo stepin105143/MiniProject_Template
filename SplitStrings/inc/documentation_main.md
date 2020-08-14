@@ -1,2 +1,2 @@
-@mainpage Factorial Application by Bharath G
-@subpage factorial.h
+@mainpage SlitStrings Application 
+@subpage SplitStrings.h
